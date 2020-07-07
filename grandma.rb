@@ -14,6 +14,7 @@
 
 
 def speak_to_grandma(phrase)
-  is phrase == ""
+  is phrase == "I LOVE YOU GRANDMA!"
+  
 end
 end
