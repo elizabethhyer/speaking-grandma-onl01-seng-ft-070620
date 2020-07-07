@@ -26,6 +26,7 @@ elsif answer == "i love you grandma!".upcase
 elsif answer == "no"
   puts "Okay then...."
 end
+end
 
 speak_to_grandma(phrase_downcase)
 speak_to_grandma(phrase_upcase)
