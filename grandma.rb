@@ -20,11 +20,9 @@ if answer == "Hi grandma, how are you?".upcase
 elsif answer == "Hi grandma, how are you?".downcase
   puts ""HUH?! SPEAK UP, SONNY!""
   puts phrase_downcase
-elsif answer == "i love you grandma!".upcase
+else answer == "i love you grandma!".upcase
   puts "I LOVE YOU TOO PUMPKIN!"
   puts love.upcase
-elsif answer == "no"
-  puts "Okay then...."
 end
 end
 
