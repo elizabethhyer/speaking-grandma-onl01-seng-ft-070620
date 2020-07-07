@@ -15,6 +15,7 @@
 input_phrase_upcase = "Hi grandma, how are you?".upcase
 input_love_upcase = "i love you grandma!".upcase
 input_phrase_downcase = "Hi grandma, how are you?".downcase
+
 def speak_to_grandma(phrase_upcase, love_upcase, phrase_downcase)
   if (phrase_upcase)
     puts "NO, NOT SINCE 1938!"
