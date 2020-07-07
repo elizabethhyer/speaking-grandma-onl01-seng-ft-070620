@@ -16,7 +16,7 @@ love = "I LOVE YOU GRANDMA!"
 
 if (.upcase)
  puts "NO, NOT SINCE 1938!"
-elsif 
+elsif love = .upcase
   puts "I LOVE YOU TOO PUMPKIN!"
 else
   puts "HUH?! SPEAK UP, SONNY!"
