@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-input phrase = "Hi grandma, how are you?"
+input_phrase = "Hi grandma, how are you?"
 def speak_to_grandma(phrase)
   if (phrase == phrase.uppercase) == false
     puts "NO, NOT SINCE 1938!"
@@ -21,4 +21,4 @@ def speak_to_grandma(phrase)
   end
 end 
 
-speak_to_grandma()
+speak_to_grandma(input_phrase)
