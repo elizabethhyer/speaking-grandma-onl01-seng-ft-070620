@@ -12,10 +12,11 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
+love = "I LOVE YOU GRANDMA!"
 
 if (.upcase)
  puts "NO, NOT SINCE 1938!"
-elsif
+elsif 
   puts "I LOVE YOU TOO PUMPKIN!"
 else
   puts "HUH?! SPEAK UP, SONNY!"
