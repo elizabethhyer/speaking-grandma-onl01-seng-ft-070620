@@ -13,19 +13,4 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-def speak_to_grandma(phrase_upcase, love_upcase, phrase_downcase)
-if answer == "Hi grandma, how are you?".upcase
-  puts "NO, NOT SINCE 1938!"
-  puts phrase_upcase
-elsif answer == "Hi grandma, how are you?".downcase
-  puts "HUH?! SPEAK UP, SONNY!"
-  puts phrase_downcase
-else answer == "i love you grandma!".upcase
-  puts "I LOVE YOU TOO PUMPKIN!"
-  puts love.upcase
-end
-end
-
-speak_to_grandma(phrase_downcase)
-speak_to_grandma(phrase_upcase)
-speak_to_grandma(love_upcase)
+def speak_to_grandma(phrase)
