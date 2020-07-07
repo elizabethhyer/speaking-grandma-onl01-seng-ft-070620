@@ -14,7 +14,7 @@
 
 input phrase = "Hi grandma, how are you?"
 def speak_to_grandma(phrase)
-  if phrase == phrase.uppercase
+  if (phrase == phrase.uppercase) == false
     puts "NO, NOT SINCE 1938!"
   else
     puts "HUH?! SPEAK UP, SONNY!"
